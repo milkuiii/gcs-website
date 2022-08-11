@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MethaneSAT</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- This is the navigation bar -->
+  <div class="navBar">
+    <h4 id="navBarLogo">Group 12 Website</h4>
+    <a class="active" href="index.html"> Home </a>
+    <a href="credits.html"> Credits </a>
+    <a href="devs.html"> The Developers </a>
+  </div>
+
+  <!-- This is the ABOUT section -->
+  <div class="home">
+    <title> MethaneSAT </title>
+    <h1> MethaneSAT </h1>
+    <h2> ABOUT </h2>
+    <p> MethaneSAT is a joint mission between the United States and New Zealand that is expected to launch in 2022.
+      It will discover and measure methane emissions from oil and gas activities virtually anywhere on Earth,
+      producing quantitative data that will allow corporations and nations to identify, control, and reduce their
+      methane emissions, thereby lowering the rate at which our world is warming. MethaneSAT LLC is a wholly-owned
+      subsidiary of the Environmental Defense Fund. The Environmental Defense Fund and the New Zealand Space Agency will
+      operate it. </p>
+
+    <a href="https://www.methanesat.org">
+      <button> VISIT THEIR WEBSITE </button>
+    </a>
+
+    <!-- List of companies involved -->
+    <h2> COMPANIES INVOLVED </h2>
+
+    <div class="companies">
+      <table>
+        <tr>
+          <th><a alt="EDF" href="https://www.edf.org/climate"><img src="Images/EDF.png"></a></th>
+          <th><a alt="New Zealand Space" href="https://www.mbie.govt.nz/science-and-technology/space/contact-us/"> <img
+                src="Images/NZ Space.png"></a></th>
+          <th><a alt="Space X" href="https://www.spacex.com/"><img src="Images/Space X.png"></a></th>
+        </tr>
+        <tr>
+          <td><a alt="Bezos Earth Fund" href="https://www.bezosearthfund.org/"><img src="Images/BEF.jpg"></a></td>
+          <td><a alt="Blue Canyon Tech" href="https://www.bluecanyontech.com/"><img src="Images/BCT.png"></a></td>
+          <td><a alt="Ball" href="https://www.ball.com/aerospace"><img src="Images/Ball.png"></a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Section 1 Code // How it works -->
+    <br>
+    <img alt="Visual GIF of how it works" src="Images/How it Works.gif" style="
+          width:50%;
+          height:50%;
+          float:left;
+          block;
+          padding-right:50px;
+          ">
+    <h2 style="padding-top:10px;"> HOW IT WORKS </h2>
+    <p style="
+          block;
+          width:100%;
+          "> Shortwave infrared wavelengths, where methane absorbs light, will be measured by a spectrometer on
+      MethaneSAT's spectrometer for high precision. Using this method, we can detect variations in methane
+      concentrations of 2 parts per billion (ppb). MethaneSAT's small pixel size (1-2 km2) and wide view path (200
+      km2) will be able to measure minor emission sources across huge areas that, in the aggregate, are important
+      sources of methane emissions, but have been undetectable by satellites. The smaller the emission, the more
+      precise the location can be determined with MethaneSAT's finer resolution data (although with less precision).
+    </p>
+
+    <a href="https://www.sciencelearn.org.nz/resources/3131-measuring-methane-from-space">
+      <button> LEARN MORE </button>
+    </a>
+
+    <!-- Section 2 Code // Challenges -->
+
+    <div class="challenges">
+      <h2> CHALLENGES OF METHANESAT </h2>
+      <p>Due to Earth's surface light reflection, measurements on methane concentration variations are severely
+        constrained in terms of quantity and precision. Cloud cover, high latitudes in the winter, and dark surfaces all
+        reduce the quantity of light that the satellite sensor can pick up on.</p>
+      <table>
+        <tr>
+          <th><img alt="Cloud Cover GIF" src="Images/CloudCover.gif"></th>
+          <th><img alt="High Latitude GIF" src="Images/HighLatitude.gif"></th>
+          <th><img alt="Dark Surfaces GIF" src="Images/DarkSurfaces.gif"></th>
+        </tr>
+        <tr>
+          <td>
+            <h3>Cloud Cover</h3>
+          </td>
+          <td>
+            <h3>High Latitude in Winter</h3>
+          </td>
+          <td>
+            <h3>Dark Surfaces</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="challengesP">All optical and infrared remote sensing systems are affected by clouds.
+              MethaneSAT's mission planning algorithms include a way to predict where clouds will be, so that when
+              possible, the satellite will go where there are no clouds.</p>
+          </td>
+          <td>
+            <p id="challengesP">MethaneSAT won't take measurements over high latitudes like Siberia during the darkest
+              part of winter, when there isn't enough light to get useful information.</p>
+          </td>
+          <td>
+            <p id="challengesP">Most of Earth's land mass is reflective enough for imaging. MethaneSAT uses an alternate
+              measurement that focuses the sensor to the bright glint location over seas where solar radiation is
+              directly reflected off the Earth's surface (glint mode).</p>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6713744/"><button> LEARN MORE </button></a></td>
+          <td><a href="https://www.viasat.com/about/newsroom/blog/weather-impacts/"><button> LEARN MORE </button></a>
+          </td>
+          <td><a href="https://ieeexplore.ieee.org/document/8909239"><button> LEARN MORE </button></a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Section 3 Code // Video Code -->
+
+    <div class="videos">
+      <h2>MethaneSAT: Unique Mission with a Unique Purpose</h2>
+      <video width="50%" height="50%" controls>
+        <source src="Videos/MethaneSat.mp4">
+      </video>
+      <h3>Source: MethaneSAT on Youtube</h3>
+      <br>
+    </div>
+  </div>
+
+  <script src=" https://replit.com/public/js/replit-badge.js" theme="white" defer>
+  </script>
+</body>
+
+</html>
